@@ -90,7 +90,7 @@ p::first-letter{
   background-color: var(--main-color);
   color: black;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
