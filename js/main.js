@@ -80,10 +80,8 @@ $(document).ready(function() {
 });
 /* ============================ /crausel==================================== */
 
-/* =============================== changeColor_site===================================== */
+/* =============================== change site color===================================== */
 function openNav() {
-
-	  /* document.getElementsByClassName("openbtn").style.paddingLeft= "10%";  */
 	 document.getElementById("myNav").style.width = "15%";
    }
    
@@ -105,7 +103,7 @@ function openNav() {
  
  }
 
-/* =============================== /changeColor_site===================================== */
+/* =============================== /change site color===================================== */
 
 /* =============================== Header Background Image===================================== */
 
@@ -115,12 +113,9 @@ function changeBackground(){
 	
 	if(headerImg.checked ==true){
 		console.log("hello");
-		/* $("header").css('background-image', 'url(./images/rs-cover.jpg)'); */
 		headerImg.style.backgroundImage = 'url(./images/rs-cover.jpg)';
 	}
 	else {
-		console.log("fail");
-		/* $("header").css('background-image', ''); */
 		headerImg.style.backgroundImage = '';
 	}
 }

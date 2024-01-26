@@ -1459,10 +1459,10 @@ color:#9da0a7;
   
   .overlay2-content {
     position: relative;
-    top: 25%;
+    top: 8%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+  
   }
   
   
@@ -1491,7 +1491,7 @@ color:#9da0a7;
 
   .overlay2-content .color-switcher{
     list-style: none;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .overlay2-content .color-switcher li{
     height: 40px;
@@ -1667,8 +1667,6 @@ color:#9da0a7;
 .move .footer-links a i
  {
   color: var(--main-move);
-
- 
 }
 
 .move .stickyMe{
